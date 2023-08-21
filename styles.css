@@ -29,6 +29,15 @@ main {
   margin: 0 2rem;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 .links {
   display: flex;
 }
