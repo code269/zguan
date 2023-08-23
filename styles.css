@@ -13,6 +13,7 @@ ul {
 }
 
 /* Header */
+
 header {
   background-color: #252b48;
   color: white;
@@ -35,7 +36,7 @@ h1 {
 }
 
 .sub-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -49,9 +50,10 @@ h1,
 }
 
 /* Links */
+
 .links {
   display: flex;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 .link-icon {
@@ -61,11 +63,18 @@ h1,
 }
 
 /* Main Content */
+
 main {
   padding-top: 1.5rem;
 }
 
 main > p {
   margin-bottom: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 800px) {
+  /* Header */
 }
