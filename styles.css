@@ -59,7 +59,14 @@ h1,
 .link-icon {
   color: white;
   text-decoration: none;
+}
+
+.icon-img {
   font-size: 2rem;
+}
+
+.link-text {
+  display: none;
 }
 
 /* Main Content */
@@ -75,6 +82,44 @@ main > p {
 
 /* Media Queries */
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   /* Header */
+  .header__wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__wrapper,
+  main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+  .header__left {
+    max-width: 60%;
+  }
+
+  .header__right {
+    max-width: 40%;
+    border-left: 1px solid silver;
+    padding-left: 1.8rem;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .icon-img {
+    font-size: 2rem;
+  }
+
+  .link-text {
+    display: inline-block;
+    font-size: 1.1rem;
+    text-decoration: underline;
+  }
 }
